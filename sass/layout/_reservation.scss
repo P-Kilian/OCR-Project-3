@@ -1,0 +1,25 @@
+//Utils Import
+
+@import "../utils/variables";
+@import "../utils/mixins";
+
+//Reservation
+
+.res {
+    background-color: $clr-bg-secondary;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  
+    &__heading {
+      font-size: 26px;
+      text-align: center;
+      margin: auto;
+      width: 80%;
+      padding-bottom: 15px;
+    }
+    &__text {
+      width: 100%;
+      margin: auto;
+      padding-bottom: 25px;
+    }
+  }

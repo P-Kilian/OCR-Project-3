@@ -1,0 +1,58 @@
+//Tutoriel
+
+.fonc {
+  
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  
+      &__list {
+          @include flex;
+          flex-direction: column;
+      }
+  
+  
+      &__step {
+          @include flex;
+  
+          margin: 25px 0 0 0;
+          background-color: $clr-bg-secondary;
+          border-radius: 15px;
+          padding: 20px;
+          box-shadow: $shadow-light;
+  
+          counter-increment: step-counter;
+  
+          &::before {
+              content: counter(step-counter);
+              font-weight: lighter ;
+              font-size: small;
+  
+              position: relative;
+              right: 30px;
+              line-height: 1.6rem;
+  
+              background-color: $clr-primary;
+              color: white;
+              border-radius: 50%;
+              height: 1.5rem;
+              width: 1.5rem;
+          }
+          &__icon {
+              transform: scale(120%);
+              color: #7E7E7E;
+  
+          &.fa-store {
+              color: $clr-primary;
+                }
+          }
+  
+          &:nth-child(3) {
+              background-color: #F5EDFF;
+          }
+  
+          &__text {
+              padding-left: 1.5rem;
+          }
+      }
+}

@@ -1,0 +1,31 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.footer {
+    background: $clr-bg-footer;
+    color: #FEFEFE;
+    text-align: left;
+
+    &__logo {
+      @include flex;
+
+      filter: invert(100%);
+      padding: 18px 0px;
+      width: 30%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    &__list {
+      padding-bottom: 20px;
+      list-style-type: none;
+
+      &__elem {
+        padding: 3px 0;
+      }
+
+      &__icon {
+        width: 24px;
+      }
+    }
+  }

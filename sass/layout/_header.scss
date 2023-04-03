@@ -1,0 +1,21 @@
+.header{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: $clr-bg-primary;
+    box-shadow: $shadow-light;
+  
+    &__img{
+      margin: auto;
+      width: 50%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    &__arrow__icon{
+      position: absolute;
+      left: 3rem;
+      top: 50%;
+      transform: scale(160%);
+    }
+  }

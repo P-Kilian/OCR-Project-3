@@ -1,0 +1,37 @@
+@import "../utils/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: $font-default;
+    margin: 0 auto;
+    max-width: $max-width;
+    min-width: $min-width;
+    text-align: center;
+    
+}
+
+a {
+    all: unset;
+
+    &:hover{
+        cursor: pointer;
+    }
+} 
+
+.container {
+    height: 100%;
+    padding: $base-padding;
+}
+
+.full-width {
+    width: 100%;
+    padding: 0;
+}

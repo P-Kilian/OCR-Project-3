@@ -1,0 +1,17 @@
+.heart{
+    position: relative;
+    transform: scale(150%, 170%);
+    -webkit-text-stroke: .8px black;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background 150ms ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background: $clr-primary;
+        -webkit-text-stroke: 0px;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
