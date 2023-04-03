@@ -57,8 +57,15 @@
             box-shadow: $shadow-light;
             overflow: hidden;
             max-width: 100%;
+            opacity: 0;
+            animation: showitem 500ms ease-in;
+            animation-fill-mode: forwards;
 
-
+            @for $i from 1 through 4 {
+                &:nth-child(#{$i}) {
+                    animation-delay: $i * calc(1s/8);
+                }
+            }
 
             &__desc {
                 padding: 10px 20px;

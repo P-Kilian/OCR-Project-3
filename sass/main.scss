@@ -3,6 +3,11 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 
+//composants
+@import "./composants/heart";
+@import "./composants/button";
+@import "./composants/spinner";
+
 // Base
 @import"./base/base";
 @import"./base/typography";
@@ -15,6 +20,3 @@
 @import "./layout/restaurants";
 @import "./layout/tutoriel";
 @import "./layout/menu";
-//composants
-@import "./composants/heart";
-@import "./composants/button";
