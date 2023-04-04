@@ -1,14 +1,3 @@
-/// wrap animation
-
-@keyframes wrap {
-    0% {
-        transform: transformX(0);
-    }
-    100% {
-        transform: transformX(100%);
-    }
-}
-
 /// Menu Item appear
 
 @keyframes showitem {
