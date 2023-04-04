@@ -23,22 +23,22 @@
     </header>
 
     <main>
-        <section class="loc">
+        <div class="loc">
             <div class="container">
                 <form class="loc__bar">
                         <div class="loc__bar__ico"><i class="fa-solid fa-location-dot"></i></div>
                         <input class="loc__bar__input" type="search" name="searchinput" placeholder="Paris, Belleville">
                 </form>
             </div>
-        </section>
+        </div>
 
         <section class="res">
             <div class="container">
                 <h2 class="res__heading">Réservez le menu qui vous convient</h2>
                 <p class="res__text">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                <a href="#rest">
-                    <button class="button" type="button">Explorer nos Restaurants</button>
-                </a>
+                <div class="res__button">
+                    <a href="#rest" class="button">Explorer nos Restaurants</a>
+                </div>
             </div>
         </section>
 
@@ -84,6 +84,7 @@
                             <div class="card__desc__subtext"><p>Charonne</p></div>
                         </div>
                         <div class="card__icon"><i class="fa-solid fa-regular fa-heart heart"></i></div>
+                    </a>
                     <a href="a-la-francaise.html" class="card">
                         <img class="card__img" loading="lazy" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Avatar">
                         <div class="card__desc">
@@ -123,7 +124,7 @@
                         </a>
                       </li>
                       <li class="footer__list__elem">
-                        <a href="mailto: contact@ohmyfood.com">
+                        <a href="mailto:contact@ohmyfood.com">
                           Contact
                         </a>
                       </li>

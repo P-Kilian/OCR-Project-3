@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
-@keyframes wrap {
-  0% {
-    transform: transformX(0);
-  }
-  100% {
-    transform: transformX(100%);
-  }
-}
 @keyframes showitem {
   0% {
     opacity: 0%;
@@ -35,7 +27,7 @@
 }
 .heart {
   position: relative;
-  transform: scale(150%, 170%);
+  transform: scale(1.5, 1.7);
   -webkit-text-stroke: 0.8px black;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -181,7 +173,7 @@ p {
   position: absolute;
   left: 3rem;
   top: 50%;
-  transform: scale(160%);
+  transform: scale(1.6);
 }
 
 .footer {
@@ -223,7 +215,6 @@ p {
   border: none;
   background: none;
   outline: none;
-  size: 16;
   width: 150px;
   font-size: large;
   font-weight: 580;
@@ -238,7 +229,6 @@ p {
   color: #353535;
   opacity: 1;
   padding-right: 1rem;
-  transform: scale(100%);
 }
 
 .res {
@@ -257,6 +247,10 @@ p {
   width: 100%;
   margin: auto;
   padding-bottom: 25px;
+}
+.res__button {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .rest {
@@ -353,7 +347,7 @@ p {
   width: 1.5rem;
 }
 .fonc__step__icon {
-  transform: scale(120%);
+  transform: scale(1.2);
   color: #7E7E7E;
 }
 .fonc__step__icon.fa-store {
@@ -417,7 +411,6 @@ p {
 .menu__item {
   display: flex;
   flex-flow: row wrap;
-  flex-flow: flex nowrap;
   cursor: pointer;
   margin: 0 0 25px 0;
   background-color: #ffffff;
@@ -430,16 +423,16 @@ p {
   animation-fill-mode: forwards;
 }
 .menu__item:nth-child(1) {
-  animation-delay: 0.125s;
+  animation-delay: 0.3333333333s;
 }
 .menu__item:nth-child(2) {
-  animation-delay: 0.25s;
+  animation-delay: 0.6666666667s;
 }
 .menu__item:nth-child(3) {
-  animation-delay: 0.375s;
+  animation-delay: 1s;
 }
 .menu__item:nth-child(4) {
-  animation-delay: 0.5s;
+  animation-delay: 1.3333333333s;
 }
 .menu__item__desc {
   padding: 10px 20px;
