@@ -5,6 +5,7 @@
     
     &__image {
         width: 100%;
+        height: 300px
     }
     &__box {
         @include flex;
@@ -24,6 +25,10 @@
             border-radius: 50px 50px 0 0;
             text-align: left;
         }
+
+        &__icon {
+            padding-right: 2.5rem;
+        }
     }
 
     
@@ -39,20 +44,20 @@
             width: 8%;
             border-bottom: 3px solid $clr-tertiary;
             text-align: left;
+            margin-bottom: 15px;
         }
   
         &__list {
             @include flex;
             flex-direction: column;
-            padding: 10px 0;
         }
 
         &__item {
             @include flex;
             flex-flow :flex nowrap;
             cursor: pointer;
-            margin: 25px 0 0 0;
-            background-color: $clr-bg-secondary;
+            margin: 0 0 25px 0;
+            background-color: $clr-bg-primary;
             border-radius: 15px;
             box-shadow: $shadow-light;
             overflow: hidden;
